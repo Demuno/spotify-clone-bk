@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | Pomofy</title>
+        <title>Home | Streetfy</title>
       </Head>
 
       <Header />
