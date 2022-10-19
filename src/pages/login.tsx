@@ -16,16 +16,16 @@ export default function Login() {
       <main className={styles.loginPage}>
         <div>
           <h1>Streetfy</h1>
-          <p>Quer uma música para dançar enquanto limpa a casa?</p>
-          <br />
-          <p>Faça o login e comece a mexer!!</p>
+          <p>Quer uma música para dançar enquanto limpa a casa? faça o login e começe a mexer!!</p>
         </div>
+        
         <button onClick={() => signIn('spotify')} type="button">
           Login com o Spotify
           {' '}
           <GrSpotify />
         </button>
       </main>
+        
     </>
   );
 }
@@ -37,7 +37,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
       redirect: {
         destination: '/', 
-        permanent: false
+        permanent: false  
       }
     }
   }
