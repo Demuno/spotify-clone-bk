@@ -16,11 +16,12 @@ export default function Login() {
       <main className={styles.loginPage}>
         <div>
           <h1>Streetfy</h1>
-          <p>Quer uma msica para dançar enquanto limpa a casa? faça o lgin e começe a mexer!</p>
+          <p>Um aplicação deixar seus estudos mais dinâmicos!</p>
+                  
         </div>
         <button onClick={() => signIn('spotify')} type="button">
           Login com o Spotify
-          {' '}
+          {''}
           <GrSpotify />
         </button>
       </main>
