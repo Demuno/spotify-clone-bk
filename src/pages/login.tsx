@@ -17,13 +17,16 @@ export default function Login() {
         <div>
           <h1>Streetfy</h1>
           <p>Um aplicação deixar seus estudos mais dinâmicos!</p>
+                  
         </div>
+        
         <button onClick={() => signIn('spotify')} type="button">
           Login com o Spotify
           {' '}
           <GrSpotify />
         </button>
       </main>
+        
     </>
   );
 }

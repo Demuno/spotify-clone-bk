@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 5.875rem;
+  
 
   width: 100vw;
   height: 100vh;
@@ -20,6 +21,8 @@
     color: var(--white);
     font-weight: 600;
   }
+
+  
 
   button {
     background-color: var(--green);
